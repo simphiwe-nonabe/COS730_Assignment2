@@ -1,0 +1,163 @@
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\appsettings.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.exe
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.deps.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.runtimeconfig.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.pdb
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_Repository.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser.pdb
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_Repository.pdb
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.csproj.AssemblyReference.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.AssemblyInfoInputs.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.AssemblyInfo.cs
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.csproj.CoreCompileInputs.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.sourcelink.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.LotusOrganiser_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.build.LotusOrganiser_API.props
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LotusOrganiser_API.props
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LotusOrganiser_API.props
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\scopedcss\bundle\LotusOrganiser_API.styles.css
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.csproj.Up2Date
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\refint\LotusOrganiser_API.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.pdb
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.genruntimeconfig.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\ref\LotusOrganiser_API.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\appsettings.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.exe
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.deps.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.runtimeconfig.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_API.pdb
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_Repository.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser.pdb
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\bin\Debug\net7.0\LotusOrganiser_Repository.pdb
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.csproj.AssemblyReference.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.AssemblyInfoInputs.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.AssemblyInfo.cs
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.csproj.CoreCompileInputs.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.LotusOrganiser_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.build.LotusOrganiser_API.props
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LotusOrganiser_API.props
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LotusOrganiser_API.props
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\scopedcss\bundle\LotusOrganiser_API.styles.css
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.csproj.Up2Date
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\refint\LotusOrganiser_API.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.pdb
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\LotusOrganiser_API.genruntimeconfig.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser_API\obj\Debug\net7.0\ref\LotusOrganiser_API.dll

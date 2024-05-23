@@ -1,0 +1,25 @@
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\bin\Debug\net7.0\LotusOrganiser.deps.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\bin\Debug\net7.0\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\bin\Debug\net7.0\LotusOrganiser.pdb
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.csproj.AssemblyReference.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.AssemblyInfoInputs.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.AssemblyInfo.cs
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.csproj.CoreCompileInputs.cache
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.sourcelink.json
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\refint\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.pdb
+C:\Users\simphiwe.nonabe\Bomb Squad\SkillsAndTrainingApp\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\ref\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\bin\Debug\net7.0\LotusOrganiser.deps.json
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\bin\Debug\net7.0\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\bin\Debug\net7.0\LotusOrganiser.pdb
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.csproj.AssemblyReference.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.AssemblyInfoInputs.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.AssemblyInfo.cs
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.csproj.CoreCompileInputs.cache
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\refint\LotusOrganiser.dll
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\LotusOrganiser.pdb
+C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\obj\Debug\net7.0\ref\LotusOrganiser.dll

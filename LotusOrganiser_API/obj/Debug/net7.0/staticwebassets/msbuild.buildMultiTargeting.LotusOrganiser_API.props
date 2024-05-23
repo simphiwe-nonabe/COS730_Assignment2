@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LotusOrganiser_API.props" />
+</Project>

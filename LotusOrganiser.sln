@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotusOrganiser_API", "LotusOrganiser_API\LotusOrganiser_API.csproj", "{ED63D45E-3632-4E30-BC49-B3BE68358947}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotusOrganiser", "LotusOrganiser\LotusOrganiser.csproj", "{5B5ECB99-19E8-43EA-86E9-1CB8AF534E97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotusOrganiser_Repository", "LotusOrganiser_Repository\LotusOrganiser_Repository.csproj", "{37E78645-4D03-465F-9DDB-6BE9E3523F1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3ABC311-B578-4143-BB1F-132B6EACA94D}"
+	ProjectSection(SolutionItems) = preProject
+		..\codegen\gen_client_code.bat = ..\codegen\gen_client_code.bat
+		..\codegen\LotusOrganiser_Settings.nswag = ..\codegen\LotusOrganiser_Settings.nswag
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED63D45E-3632-4E30-BC49-B3BE68358947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED63D45E-3632-4E30-BC49-B3BE68358947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED63D45E-3632-4E30-BC49-B3BE68358947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED63D45E-3632-4E30-BC49-B3BE68358947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5ECB99-19E8-43EA-86E9-1CB8AF534E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5ECB99-19E8-43EA-86E9-1CB8AF534E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5ECB99-19E8-43EA-86E9-1CB8AF534E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5ECB99-19E8-43EA-86E9-1CB8AF534E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E78645-4D03-465F-9DDB-6BE9E3523F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E78645-4D03-465F-9DDB-6BE9E3523F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E78645-4D03-465F-9DDB-6BE9E3523F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E78645-4D03-465F-9DDB-6BE9E3523F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4605A223-662A-4F10-8F64-FC0E7E13F43C}
+	EndGlobalSection
+EndGlobal
