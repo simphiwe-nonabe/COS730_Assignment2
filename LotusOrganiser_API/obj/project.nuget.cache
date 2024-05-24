@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7vk++pxd6VV96sGTWPif/rBbm6uehoanYf2uRe2XPWT4ogvYVZXEzf/eiS5Hw8wwct8P2wbKuyH0LjZ5hUW/qw==",
+  "dgSpecHash": "S8McU5nJsLRLV3YUtR7jJ5eQXb+nSmNFnz6m7qkH9+9hnCCYQSvZrSzK7f4DcsM4u11qxsqTBWfKwysffc+3yw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_API\\LotusOrganiser_API.csproj",
+  "projectFilePath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\LotusOrganiser_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simphiwe.nonabe\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\simphiwe.nonabe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

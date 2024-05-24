@@ -2723,11 +2723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj",
+      "projectUniqueName": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj",
       "projectName": "LotusOrganiser_Repository",
-      "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj",
+      "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj",
       "packagesPath": "C:\\Users\\simphiwe.nonabe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_Repository\\obj\\",
+      "outputPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simphiwe.nonabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2744,8 +2744,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser\\LotusOrganiser.csproj": {
-              "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser\\LotusOrganiser.csproj"
+            "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser\\LotusOrganiser.csproj": {
+              "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser\\LotusOrganiser.csproj"
             }
           }
         }

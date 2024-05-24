@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yj5h4wNtJsqu5rw4Fy33AY9dhvlKXO7tW4A2sP1NH1DnoMKrw1xk6LcWQac3CWdAt4ur1vp4vaGqTl5qiEYRQQ==",
+  "dgSpecHash": "TEyAwJYOmE/X+BojXuMiwFOtVNtpFJDM0+zdAq+QTq3PxLb/Zm1FV4s/m7nkhyX3dEYDJJfpgY3hpPiGohV/sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj",
+  "projectFilePath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simphiwe.nonabe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\simphiwe.nonabe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

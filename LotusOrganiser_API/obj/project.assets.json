@@ -3511,11 +3511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_API\\LotusOrganiser_API.csproj",
+      "projectUniqueName": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\LotusOrganiser_API.csproj",
       "projectName": "LotusOrganiser_API",
-      "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_API\\LotusOrganiser_API.csproj",
+      "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\LotusOrganiser_API.csproj",
       "packagesPath": "C:\\Users\\simphiwe.nonabe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_API\\obj\\",
+      "outputPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simphiwe.nonabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3532,11 +3532,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser\\LotusOrganiser.csproj": {
-              "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser\\LotusOrganiser.csproj"
+            "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser\\LotusOrganiser.csproj": {
+              "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser\\LotusOrganiser.csproj"
             },
-            "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj": {
-              "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj"
+            "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj": {
+              "projectPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj"
             }
           }
         }

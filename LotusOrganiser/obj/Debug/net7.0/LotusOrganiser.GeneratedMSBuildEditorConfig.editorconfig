@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LotusOrganiser
-build_property.ProjectDir = C:\Users\simphiwe.nonabe\Honours\LotusOrganiser_Backend\LotusOrganiser\
+build_property.ProjectDir = C:\Users\simphiwe.nonabe\Honours\COS730_Assignment2\LotusOrganiser\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
