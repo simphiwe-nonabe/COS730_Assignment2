@@ -3,6 +3,7 @@ using LotusOrganiser.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LotusOrganiser.Migrations
 {
     [DbContext(typeof(LotusOrganiserDbContext))]
-    partial class LotusOrganiserDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240524171002_migra2")]
+    partial class migra2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -96,12 +99,7 @@ namespace LotusOrganiser.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<long>("TeamId")
-                        .HasColumnType("bigint");
-
                     b.HasKey("ItemId");
-
-                    b.HasIndex("TeamId");
 
                     b.ToTable("ToDoListItems");
                 });
@@ -121,17 +119,6 @@ namespace LotusOrganiser.Migrations
                         .IsRequired();
 
                     b.Navigation("Person");
-
-                    b.Navigation("Team");
-                });
-
-            modelBuilder.Entity("LotusOrganiser.Entities.ToDoListItem", b =>
-                {
-                    b.HasOne("LotusOrganiser.Entities.Team", "Team")
-                        .WithMany()
-                        .HasForeignKey("TeamId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
 
                     b.Navigation("Team");
                 });

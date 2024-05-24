@@ -15,5 +15,7 @@ namespace LotusOrganiser.Data
 
         public DbSet<Person> Persons { get; set; }
 
+        public DbSet<ToDoListItem> ToDoListItems { get; set; }
+
     }
 }

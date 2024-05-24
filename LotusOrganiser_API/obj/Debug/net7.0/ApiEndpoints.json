@@ -426,5 +426,61 @@
         "StatusCode": 204
       }
     ]
+  },
+  {
+    "ContainingType": "LotusOrganiser_API.Controllers.ToDoListItemController",
+    "Method": "CreateToDoListItemAsync",
+    "RelativePath": "ToDoListItem/CreateToDoListItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "LotusOrganiser.Entities.ToDoListItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LotusOrganiser.Entities.ToDoListItem, LotusOrganiser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LotusOrganiser_API.Controllers.ToDoListItemController",
+    "Method": "GetAllToDoListItemsAsync",
+    "RelativePath": "ToDoListItem/GetAllToDoListItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LotusOrganiser.Entities.ToDoListItem, LotusOrganiser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
