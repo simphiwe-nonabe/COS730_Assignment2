@@ -14,11 +14,14 @@ namespace LotusOrganiser_Repository.Repositories
 
         private readonly IPersonRepository _personRepository;
 
-        public TeamMemberRepository(LotusOrganiserDbContext context, ILogger<TeamMemberRepository> logger, IPersonRepository personRepository)
+        private readonly ITeamRepository _teamRepository;
+
+        public TeamMemberRepository(LotusOrganiserDbContext context, ILogger<TeamMemberRepository> logger, IPersonRepository personRepository, ITeamRepository teamRepository)
         {
             _context = context;
             _logger = logger;
             _personRepository = personRepository;
+            _teamRepository = teamRepository;
         }
 
         public async Task<TeamMember> AddTeamMemberAsync(TeamMember teamMember)
@@ -27,11 +30,30 @@ namespace LotusOrganiser_Repository.Repositories
             {
                 Person? person = await
                     _personRepository.GetPersonByIdAsync(teamMember.PersonId);
+
                 if (person == null)
                 {
-                    throw new Exception($"TeamMember type with id - {teamMember.PersonId} does not exist.");
+                    //throw new Exception($"TeamMember type with id - {teamMember.PersonId} does not exist.");
+
+                    person = await
+                    _personRepository.AddPersonAsync(teamMember.Person);
                 }
+
                 teamMember.Person = person;
+
+                Team? team = await
+                    _teamRepository.GetTeamByIdAsync(teamMember.TeamId);
+
+                if (team == null)
+                {
+                    //throw new Exception($"TeamMember type with id - {teamMember.PersonId} does not exist.");
+
+                    team = await
+                    _teamRepository.CreateTeamAsync(teamMember.Team);
+                }
+
+                teamMember.Team = team;
+
                 await _context.TeamMembers.AddAsync(teamMember);
                 await _context.SaveChangesAsync();
                 return teamMember;
@@ -77,6 +99,7 @@ namespace LotusOrganiser_Repository.Repositories
         {
             return await _context.TeamMembers
                 .Include(person => person.Person)
+                .Include(team => team.Team)
                 .ToListAsync();
         }
 

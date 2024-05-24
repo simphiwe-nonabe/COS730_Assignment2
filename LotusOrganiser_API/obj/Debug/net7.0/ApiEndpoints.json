@@ -238,7 +238,7 @@
     "Parameters": [
       {
         "Name": "teamMember",
-        "Type": "LotusOrganiser_API.Models.Person.TeamMemberCreationModel",
+        "Type": "LotusOrganiser.Entities.TeamMember",
         "IsRequired": true
       }
     ],

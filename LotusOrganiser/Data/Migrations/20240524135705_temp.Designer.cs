@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LotusOrganiser.Migrations
 {
     [DbContext(typeof(LotusOrganiserDbContext))]
-    [Migration("20240523203651_migra")]
-    partial class migra
+    [Migration("20240524135705_temp")]
+    partial class temp
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -71,14 +71,9 @@ namespace LotusOrganiser.Migrations
                     b.Property<long>("PersonId")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("TeamId")
-                        .HasColumnType("bigint");
-
                     b.HasKey("TeamMemberId");
 
                     b.HasIndex("PersonId");
-
-                    b.HasIndex("TeamId");
 
                     b.ToTable("TeamMembers");
                 });
@@ -91,15 +86,7 @@ namespace LotusOrganiser.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LotusOrganiser.Entities.Team", "Team")
-                        .WithMany()
-                        .HasForeignKey("TeamId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Person");
-
-                    b.Navigation("Team");
                 });
 #pragma warning restore 612, 618
         }

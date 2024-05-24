@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using LotusOrganiser.Data.Constants;
 using LotusOrganiser.Entities;
 
 namespace LotusOrganiser.Data

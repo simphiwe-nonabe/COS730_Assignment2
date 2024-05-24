@@ -14,11 +14,11 @@ namespace LotusOrganiser_API.Models.Person
         }
 
         [JsonConstructor]
-        public TeamMemberUpdateModel(long teamMemberId, string name, string code, long personId)
+        public TeamMemberUpdateModel(long teamMemberId, string name, string team, long personId)
         {
             TeamMemberId = teamMemberId;
             Name = name;
-            Code = code;
+            Code = team;
             PersonId = personId;
         }
 

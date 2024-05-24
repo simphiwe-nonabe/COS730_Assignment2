@@ -13,11 +13,11 @@ namespace LotusOrganiser_API.Models.Person
         }
 
         [JsonConstructor]
-        public TeamMemberCreationModel(string name, string code, long certificationTypeId)
+        public TeamMemberCreationModel(string name, string team, long PersonId)
         {
             Name = name;
-            Code = code;
-            PersonId = certificationTypeId;
+            Code = team;
+            PersonId = PersonId;
         }
 
         [Required]

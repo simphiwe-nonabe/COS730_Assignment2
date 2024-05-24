@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LotusOrganiser_Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9da81771bd2aacda83494230078937f82a5fcb8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a23122a966a6c92bdd837aa578f4fc559b2e7362")]
 [assembly: System.Reflection.AssemblyProductAttribute("LotusOrganiser_Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LotusOrganiser_Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using LotusOrganiser.Entities;
 
 namespace LotusOrganiser_API.Models.Person
 {
@@ -8,23 +9,20 @@ namespace LotusOrganiser_API.Models.Person
         private TeamMemberViewModel()
         {
             TeamMemberId = default!;
-            Name = default!;
-            Code = default!;
+            Team = default!;
             Person = default!;
         }
 
         [JsonConstructor]
-        public TeamMemberViewModel(long certificationId, string name, string code, string certificationType)
+        public TeamMemberViewModel(long teamMemberId, string team, string person)
         {
-            TeamMemberId = certificationId;
-            Name = name;
-            Code = code;
-            Person = certificationType;
+            TeamMemberId = teamMemberId;
+            Team = team;
+            Person = person;
         }
 
         public long TeamMemberId { get; set; }
-        public string Name { get; set; }
-        public string Code { get; set; }
+        public string Team { get; set; }
         public string Person { get; set; }
     }
 }

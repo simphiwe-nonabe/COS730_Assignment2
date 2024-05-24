@@ -26,12 +26,16 @@ namespace LotusOrganiser_API.Controllers
         [SwaggerOperation(OperationId = nameof(AddTeamMember))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
         [SwaggerResponse(StatusCodes.Status204NoContent)]
-        public async Task<IActionResult> AddTeamMember([FromBody] TeamMemberCreationModel teamMember)
+        //public async Task<IActionResult> AddTeamMember([FromBody] TeamMemberCreationModel teamMember)
+        public async Task<IActionResult> AddTeamMember([FromBody] TeamMember teamMember)
         {
 
-            TeamMember mappedTeamMember = _mapper.Map<TeamMember>(teamMember);
-            await _teamMemberRepository.AddTeamMemberAsync(mappedTeamMember);
-            return NoContent();
+            //TeamMember mappedTeamMember = _mapper.Map<TeamMember>(teamMember);
+            //await _teamMemberRepository.AddTeamMemberAsync(mappedTeamMember);
+            TeamMember  mappedResult = await _teamMemberRepository.AddTeamMemberAsync(teamMember);
+
+            return Ok(mappedResult);
+            //return NoContent();
         }
 
         [HttpGet]
