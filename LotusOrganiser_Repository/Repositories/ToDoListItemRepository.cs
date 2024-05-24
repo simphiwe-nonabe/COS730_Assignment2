@@ -40,6 +40,8 @@ namespace LotusOrganiser_Repository.Repositories
                     throw new Exception($"ToDo list item can not be created without assignee team. Please create team first");
                 }
 
+                item.Team = team;
+
                 await _context.ToDoListItems.AddAsync(item);
                 await _context.SaveChangesAsync();
                 return item;

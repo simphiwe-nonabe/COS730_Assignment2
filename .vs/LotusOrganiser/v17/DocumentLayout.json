@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{37E78645-4D03-465F-9DDB-6BE9E3523F1C}|LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj|solutionrelative:lotusorganiser_repository\\repositories\\todolistitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B5ECB99-19E8-43EA-86E9-1CB8AF534E97}|LotusOrganiser\\LotusOrganiser.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser\\entities\\todolistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5ECB99-19E8-43EA-86E9-1CB8AF534E97}|LotusOrganiser\\LotusOrganiser.csproj|solutionrelative:lotusorganiser\\entities\\todolistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37E78645-4D03-465F-9DDB-6BE9E3523F1C}|LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_repository\\repositories\\teammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37E78645-4D03-465F-9DDB-6BE9E3523F1C}|LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj|solutionrelative:lotusorganiser_repository\\repositories\\teammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoListItem.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser\\Entities\\ToDoListItem.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser\\Entities\\ToDoListItem.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser\\Entities\\ToDoListItem.cs",
+              "RelativeToolTip": "LotusOrganiser\\Entities\\ToDoListItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:51:36.758Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "LotusOrganiser_Repository\\Repositories\\ToDoListItemRepository.cs",
               "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\Repositories\\ToDoListItemRepository.cs*",
               "RelativeToolTip": "LotusOrganiser_Repository\\Repositories\\ToDoListItemRepository.cs*",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCYAAAARAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T18:23:45.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TeamMemberRepository.cs",
               "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\Repositories\\TeamMemberRepository.cs",
               "RelativeDocumentMoniker": "LotusOrganiser_Repository\\Repositories\\TeamMemberRepository.cs",
