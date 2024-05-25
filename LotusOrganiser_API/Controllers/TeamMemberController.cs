@@ -25,7 +25,7 @@ namespace LotusOrganiser_API.Controllers
         [Route("AddTeamMember")]
         [SwaggerOperation(OperationId = nameof(AddTeamMember))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status204NoContent)]
+        [SwaggerResponse(StatusCodes.Status200OK)]
         //public async Task<IActionResult> AddTeamMember([FromBody] TeamMemberCreationModel teamMember)
         public async Task<IActionResult> AddTeamMember([FromBody] TeamMember teamMember)
         {
@@ -70,7 +70,7 @@ namespace LotusOrganiser_API.Controllers
         [Route("UpdateTeamMember")]
         [SwaggerOperation(OperationId = nameof(UpdateTeamMember))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status204NoContent)]
+        [SwaggerResponse(StatusCodes.Status200OK)]
         public async Task<IActionResult> UpdateTeamMember([FromBody] TeamMemberUpdateModel teamMember)
         {
             TeamMember teamMemberToUpdate = _mapper.Map<TeamMember>(teamMember);
@@ -82,7 +82,7 @@ namespace LotusOrganiser_API.Controllers
         [Route("DeleteTeamMember")]
         [SwaggerOperation(OperationId = nameof(DeleteTeamMember))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status204NoContent)]
+        [SwaggerResponse(StatusCodes.Status200OK)]
         public async Task<IActionResult> DeleteTeamMember(long id)
         {
             TeamMember? deletedTeamMember = await _teamMemberRepository.DeleteTeamMemberAsync(id);

@@ -20,9 +20,13 @@
         "StatusCode": 400
       },
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LotusOrganiser.Entities.Person, LotusOrganiser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
     ]
   },
@@ -47,9 +51,13 @@
         "StatusCode": 400
       },
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LotusOrganiser.Entities.Person, LotusOrganiser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
     ]
   },
@@ -155,7 +163,7 @@
       },
       {
         "Name": "personToUpdate",
-        "Type": "LotusOrganiser.Entities.Person",
+        "Type": "LotusOrganiser_API.Models.Person.PersonCreationModel",
         "IsRequired": true
       }
     ],
@@ -166,9 +174,13 @@
         "StatusCode": 400
       },
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LotusOrganiser.Entities.Person, LotusOrganiser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
     ]
   },
@@ -251,7 +263,7 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
-        "StatusCode": 204
+        "StatusCode": 200
       }
     ]
   },
@@ -278,7 +290,7 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
-        "StatusCode": 204
+        "StatusCode": 200
       }
     ]
   },
@@ -423,7 +435,7 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
-        "StatusCode": 204
+        "StatusCode": 200
       }
     ]
   },

@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E78645-4D03-465F-9DDB-6BE9E3523F1C}|LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_repository\\repositories\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E78645-4D03-465F-9DDB-6BE9E3523F1C}|LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj|solutionrelative:lotusorganiser_repository\\repositories\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E78645-4D03-465F-9DDB-6BE9E3523F1C}|LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_repository\\interfaces\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E78645-4D03-465F-9DDB-6BE9E3523F1C}|LotusOrganiser_Repository\\LotusOrganiser_Repository.csproj|solutionrelative:lotusorganiser_repository\\interfaces\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPersonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\Interfaces\\IPersonRepository.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_Repository\\Interfaces\\IPersonRepository.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\Interfaces\\IPersonRepository.cs*",
+              "RelativeToolTip": "LotusOrganiser_Repository\\Interfaces\\IPersonRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T02:17:08.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\Repositories\\PersonRepository.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_Repository\\Repositories\\PersonRepository.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_Repository\\Repositories\\PersonRepository.cs",
+              "RelativeToolTip": "LotusOrganiser_Repository\\Repositories\\PersonRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA0wDwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T02:16:00.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_API\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\PersonController.cs*",
+              "RelativeToolTip": "LotusOrganiser_API\\Controllers\\PersonController.cs*",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAkwFoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T02:03:08.968Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

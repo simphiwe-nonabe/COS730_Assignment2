@@ -4,6 +4,7 @@ using LotusOrganiser.Entities;
 using LotusOrganiser_API.Models.Person;
 using LotusOrganiser_Repository.Interfaces;
 using Swashbuckle.AspNetCore.Annotations;
+using System;
 
 namespace LotusOrganiser_API.Controllers
 {
@@ -24,12 +25,12 @@ namespace LotusOrganiser_API.Controllers
         [Route("AddPerson")]
         [SwaggerOperation(OperationId = nameof(AddPerson))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status204NoContent)]
+        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<Person>))]
         public async Task<IActionResult> AddPerson([FromBody] PersonCreationModel person)
         {
             Person mappedPerson = _mapper.Map<Person>(person);
-            await _personRepository.AddPersonAsync(mappedPerson);
-            return NoContent();
+            Person result = await _personRepository.AddPersonAsync(mappedPerson);
+            return Ok(result);
         }
 
         [HttpGet]
@@ -64,10 +65,12 @@ namespace LotusOrganiser_API.Controllers
         [Route("UpdatePerson/{id:long}")]
         [SwaggerOperation(OperationId = nameof(UpdatePerson))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status204NoContent)]
-        public async Task<IActionResult> UpdatePerson([FromRoute] long id, [FromBody] Person personToUpdate)
+        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<Person>))]
+        public async Task<IActionResult> UpdatePerson([FromRoute] long id, [FromBody] PersonCreationModel personToUpdate)
         {
-            Person? updatedPerson = await _personRepository.UpdatePersonAsync(id, personToUpdate);
+            Person mappedPerson = _mapper.Map<Person>(personToUpdate);
+
+            Person? updatedPerson = await _personRepository.UpdatePersonAsync(id, mappedPerson);
             return updatedPerson == null ? NotFound() : Ok(updatedPerson);
         }
 
@@ -75,7 +78,7 @@ namespace LotusOrganiser_API.Controllers
         [Route("DeletePerson")]
         [SwaggerOperation(OperationId = nameof(DeletePerson))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status204NoContent)]
+        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<Person>))]
         public async Task<IActionResult> DeletePerson(long id)
         {
             Person? deletedPerson = await _personRepository.DeletePersonAsync(id);
