@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace LotusOrganiser_API.Models.Person
+namespace LotusOrganiser_API.Models.TeamMember
 {
     public class TeamMemberCreationModel
     {
