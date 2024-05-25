@@ -40,5 +40,49 @@ namespace LotusOrganiser_Repository.Repositories
         {
             return await _context.Teams.FindAsync(teamId);
         }
+
+        public async Task<Team?> UpdateTeamAsync(long id, Team updatedTeam)
+        {
+            try
+            {
+                Team? team = await _context.Teams.FindAsync(id);
+
+                if (team == null)
+                {
+                    return null;
+                }
+
+                team.Name = updatedTeam.Name;
+                await _context.SaveChangesAsync();
+                return team;
+            }
+            catch (Exception exception)
+            {
+                _logger.LogError(exception, "Unable to update team with id - {id}", updatedTeam.TeamId);
+                throw;
+            }
+        }
+
+        public async Task<Team?> DeleteTeamAsync(long id)
+        {
+            try
+            {
+                Team? team = await _context.Teams.FindAsync(id);
+
+                if (team == null)
+                {
+                    return null;
+                }
+
+                _context.Teams.Remove(team);
+                await _context.SaveChangesAsync();
+                return team;
+            }
+            catch (Exception exception) 
+            {
+                _logger.LogError(exception, "Unable to delete team with id - {id}", id);
+                throw;
+            }
+        }
     }
 }

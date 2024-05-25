@@ -1,6 +1,6 @@
 using AutoMapper;
 using LotusOrganiser.Entities;
-using LotusOrganiser_API.Models;
+using LotusOrganiser_API.Models.Team;
 
 namespace LotusOrganiser_API.Mapping
 {
@@ -9,6 +9,8 @@ namespace LotusOrganiser_API.Mapping
         public TeamProfile()
         {
             CreateMap<Team, TeamViewModel>();
+
+            CreateMap<TeamCreationModel, Team>();
         }
     }
 }

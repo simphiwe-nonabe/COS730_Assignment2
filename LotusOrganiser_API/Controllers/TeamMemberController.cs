@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using LotusOrganiser.Entities;
-using LotusOrganiser_API.Models.Person;
+using LotusOrganiser_API.Models.TeamMember;
 using LotusOrganiser_Repository.Interfaces;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -26,16 +26,13 @@ namespace LotusOrganiser_API.Controllers
         [SwaggerOperation(OperationId = nameof(AddTeamMember))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
         [SwaggerResponse(StatusCodes.Status200OK)]
-        //public async Task<IActionResult> AddTeamMember([FromBody] TeamMemberCreationModel teamMember)
-        public async Task<IActionResult> AddTeamMember([FromBody] TeamMember teamMember)
+        public async Task<IActionResult> AddTeamMember([FromBody] TeamMemberCreationModel teamMember)
         {
 
-            //TeamMember mappedTeamMember = _mapper.Map<TeamMember>(teamMember);
-            //await _teamMemberRepository.AddTeamMemberAsync(mappedTeamMember);
-            TeamMember  mappedResult = await _teamMemberRepository.AddTeamMemberAsync(teamMember);
+            TeamMember mappedTeamMember = _mapper.Map<TeamMember>(teamMember);
+            TeamMember  mappedResult = await _teamMemberRepository.AddTeamMemberAsync(mappedTeamMember);
 
             return Ok(mappedResult);
-            //return NoContent();
         }
 
         [HttpGet]

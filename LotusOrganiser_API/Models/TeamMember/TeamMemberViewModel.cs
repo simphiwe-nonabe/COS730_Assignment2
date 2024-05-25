@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 using LotusOrganiser.Entities;
 
-namespace LotusOrganiser_API.Models.Person
+namespace LotusOrganiser_API.Models.TeamMember
 {
     public class TeamMemberViewModel
     {

@@ -30,7 +30,7 @@ namespace LotusOrganiser_Repository.Repositories
             }
             catch (Exception exception)
             {
-                _logger.LogError(exception, "Unable to add Certification Type - {name}", person.Name);
+                _logger.LogError(exception, "Unable to add person - {name}", person.Name);
                 throw;
             }
         }
@@ -52,7 +52,7 @@ namespace LotusOrganiser_Repository.Repositories
             }
             catch (Exception exception) 
             {
-                _logger.LogError(exception, "Unable to delete Certification Type with id - {id}", id);
+                _logger.LogError(exception, "Unable to delete person with id - {id}", id);
                 throw;
             }
 
@@ -90,7 +90,7 @@ namespace LotusOrganiser_Repository.Repositories
             }
             catch (Exception exception)
             {
-                _logger.LogError(exception, "Unable to update Certification with id - {id}", updatedPerson.PersonId);
+                _logger.LogError(exception, "Unable to update person with id - {id}", updatedPerson.PersonId);
                 throw;
             }
 

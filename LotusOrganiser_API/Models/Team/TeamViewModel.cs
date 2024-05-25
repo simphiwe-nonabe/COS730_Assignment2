@@ -1,25 +1,20 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace LotusOrganiser_API.Models
+namespace LotusOrganiser_API.Models.Team
 {
-    public sealed class TeamViewModel
+    public class TeamViewModel
     {
         private TeamViewModel()
         {
-            TeamId = default!;
             Name = default!;
         }
 
         [JsonConstructor]
-        public TeamViewModel(long teamId, string name)
+        public TeamViewModel(string name)
         {
-            TeamId = teamId;
             Name = name;
-        }
-
-        [Required]
-        public long TeamId { get; set; }
+        } 
 
         [Required]
         [StringLength(50)]

@@ -10,7 +10,7 @@ namespace LotusOrganiser_Repository.Interfaces
 
         public Task<IEnumerable<TeamMember>> FindTeamMembersByNameAsync(string name);
 
-        public Task<TeamMember> AddTeamMemberAsync(TeamMember certification);
+        public Task<TeamMember> AddTeamMemberAsync(TeamMember teamMember);
 
         public Task<TeamMember?> UpdateTeamMemberAsync(TeamMember updatedTeamMember);
 
