@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\lotusorganiser_backend\\lotusorganiser_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_api\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:30:44.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Program.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_API\\Program.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Program.cs",
+              "RelativeToolTip": "LotusOrganiser_API\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:30:39.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_API\\appsettings.json",
-              "RelativeDocumentMoniker": "LotusOrganiser_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\LotusOrganiser_Backend\\LotusOrganiser_API\\appsettings.json",
-              "RelativeToolTip": "LotusOrganiser_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-23T02:29:30.155Z",
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_API\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\PersonController.cs*",
+              "RelativeToolTip": "LotusOrganiser_API\\Controllers\\PersonController.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:26:07.651Z",
               "EditorCaption": ""
             }
           ]
