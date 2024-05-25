@@ -4,9 +4,6 @@ using LotusOrganiser.Entities;
 using LotusOrganiser_Repository.Interfaces;
 using Swashbuckle.AspNetCore.Annotations;
 using LotusOrganiser_API.Models.Team;
-using LotusOrganiser_API.Models.Team;
-using LotusOrganiser_Repository.Repositories;
-using System;
 
 namespace LotusOrganiser_API.Controllers
 {
@@ -46,7 +43,7 @@ namespace LotusOrganiser_API.Controllers
         {
             Team mappedTeam = _mapper.Map<Team>(team);
             Team result  = await _teamRepository.CreateTeamAsync(mappedTeam);
-            return Ok(team);
+            return Ok(result);
         }
 
         [HttpGet]
