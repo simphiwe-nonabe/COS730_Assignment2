@@ -158,7 +158,7 @@ namespace LotusOrganiser_Repository.Repositories
             return await _context.TeamMembers
                 .Include(teamMember => teamMember.Person)
                 .Include(teamMember => teamMember.Team)
-                .Where(teamMember => teamMember.TeamMemberId == id).ToListAsync();
+                .Where(teamMember => teamMember.TeamId == id).ToListAsync();
         }
 
     }

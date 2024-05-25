@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LotusOrganiser_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3db42fd66312108d4669292a8d347e6ac0cb9a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68ea1bca6b326a7af98aa93a9627881ea16ec77b")]
 [assembly: System.Reflection.AssemblyProductAttribute("LotusOrganiser_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LotusOrganiser_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

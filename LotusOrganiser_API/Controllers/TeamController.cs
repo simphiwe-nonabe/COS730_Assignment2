@@ -54,7 +54,6 @@ namespace LotusOrganiser_API.Controllers
         public async Task<IActionResult> UpdateTeam([FromRoute] long id, [FromBody] TeamCreationModel teamToUpdate)
         {
             Team mappedTeam = _mapper.Map<Team>(teamToUpdate);
-
             Team? updatedTeam = await _teamRepository.UpdateTeamAsync(id, mappedTeam);
             return updatedTeam == null ? NotFound() : Ok(updatedTeam);
         }

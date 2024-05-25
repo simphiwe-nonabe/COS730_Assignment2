@@ -76,11 +76,11 @@ namespace LotusOrganiser_API.Controllers
         public async Task<IActionResult> GetTeamMembersByTeamId([FromRoute] long id)
         {
             IEnumerable<TeamMember> teamMembers = await _teamMemberRepository.GetTeamMembersByTeamIdAsync(id);
-            if (teamMembers == null)
+            if (teamMembers == null || teamMembers.Count() == 0)
             {
                 return NotFound();
             }
-            TeamMemberViewModel mappedResult = _mapper.Map<TeamMemberViewModel>(teamMembers);
+            List<TeamMemberViewModel> mappedResult = teamMembers.Select(_mapper.Map<TeamMemberViewModel>).ToList();
             return Ok(mappedResult);
         }
 
