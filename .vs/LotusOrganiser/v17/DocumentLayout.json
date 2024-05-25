@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_api\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|c:\\users\\simphiwe.nonabe\\honours\\cos730_assignment2\\lotusorganiser_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED63D45E-3632-4E30-BC49-B3BE68358947}|LotusOrganiser_API\\LotusOrganiser_API.csproj|solutionrelative:lotusorganiser_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamController.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "RelativeToolTip": "LotusOrganiser_API\\Controllers\\TeamController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:30:44.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Program.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_API\\Program.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Program.cs",
+              "RelativeToolTip": "LotusOrganiser_API\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:30:39.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "LotusOrganiser_API\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\simphiwe.nonabe\\Honours\\COS730_Assignment2\\LotusOrganiser_API\\Controllers\\PersonController.cs*",
+              "RelativeToolTip": "LotusOrganiser_API\\Controllers\\PersonController.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:26:07.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
