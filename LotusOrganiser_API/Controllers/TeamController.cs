@@ -22,6 +22,18 @@ namespace LotusOrganiser_API.Controllers
             _mapper = mapper;
         }
 
+        [HttpPost]
+        [Route("CreateTeam")]
+        [SwaggerOperation(OperationId = nameof(CreateTeam))]
+        [SwaggerResponse(StatusCodes.Status400BadRequest)]
+        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<Team>))]
+        public async Task<IActionResult> CreateTeam([FromBody] TeamCreationModel team)
+        {
+            Team mappedTeam = _mapper.Map<Team>(team);
+            Team result = await _teamRepository.CreateTeamAsync(mappedTeam);
+            return Ok(result);
+        }
+
         [HttpGet]
         [Route("GetAllTeams")]
         [SwaggerOperation(OperationId = nameof(GetAllTeams))]
@@ -31,34 +43,6 @@ namespace LotusOrganiser_API.Controllers
         {
             IEnumerable<Team> result = await _teamRepository.GetAllTeamsAsync();
             List<TeamViewModel> mappedResult = result.Select(_mapper.Map<TeamViewModel>).ToList();
-            return Ok(mappedResult);
-        }
-
-        [HttpPost]
-        [Route("CreateTeam")]
-        [SwaggerOperation(OperationId = nameof(CreateTeam))]
-        [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<Team>))]
-        public async Task<IActionResult> CreateTeam([FromBody] TeamCreationModel team)
-        {
-            Team mappedTeam = _mapper.Map<Team>(team);
-            Team result  = await _teamRepository.CreateTeamAsync(mappedTeam);
-            return Ok(result);
-        }
-
-        [HttpGet]
-        [Route("GetTeamById/{id:long}")]
-        [SwaggerOperation(OperationId = nameof(GetTeamById))]
-        [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<TeamViewModel>))]
-        public async Task<IActionResult> GetTeamById([FromRoute] long id)
-        {
-            Team? team = await _teamRepository.GetTeamByIdAsync(id);
-            if (team == null)
-            {
-                return NotFound();
-            }
-            TeamViewModel mappedResult = _mapper.Map<TeamViewModel>(team);
             return Ok(mappedResult);
         }
 
@@ -84,6 +68,22 @@ namespace LotusOrganiser_API.Controllers
         {
             Team? deletedTeam = await _teamRepository.DeleteTeamAsync(id);
             return deletedTeam == null ? NotFound() : Ok(deletedTeam);
+        }
+
+        [HttpGet]
+        [Route("GetTeamById/{id:long}")]
+        [SwaggerOperation(OperationId = nameof(GetTeamById))]
+        [SwaggerResponse(StatusCodes.Status400BadRequest)]
+        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<TeamViewModel>))]
+        public async Task<IActionResult> GetTeamById([FromRoute] long id)
+        {
+            Team? team = await _teamRepository.GetTeamByIdAsync(id);
+            if (team == null)
+            {
+                return NotFound();
+            }
+            TeamViewModel mappedResult = _mapper.Map<TeamViewModel>(team);
+            return Ok(mappedResult);
         }
     }
 

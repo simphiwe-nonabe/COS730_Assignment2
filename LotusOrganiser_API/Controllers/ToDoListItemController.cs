@@ -23,18 +23,6 @@ namespace LotusOrganiser_API.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        [Route("GetAllToDoListItems")]
-        [SwaggerOperation(OperationId = nameof(GetAllToDoListItemsAsync))]
-        [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<ToDoListItemViewModel>))]
-        public async Task<IActionResult> GetAllToDoListItemsAsync()
-        {
-            IEnumerable<ToDoListItem> result = await _itemRepository.GetAllToDoListItemsAsync();
-            List<ToDoListItemViewModel> mappedResult = result.Select(_mapper.Map<ToDoListItemViewModel>).ToList();
-            return Ok(mappedResult);
-        }
-
         [HttpPost]
         [Route("CreateToDoListItem")]
         [SwaggerOperation(OperationId = nameof(CreateToDoListItem))]
@@ -48,18 +36,14 @@ namespace LotusOrganiser_API.Controllers
         }
 
         [HttpGet]
-        [Route("GetToDoListItemById/{id:long}")]
-        [SwaggerOperation(OperationId = nameof(GetToDoListItemById))]
+        [Route("GetAllToDoListItems")]
+        [SwaggerOperation(OperationId = nameof(GetAllToDoListItemsAsync))]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
         [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<ToDoListItemViewModel>))]
-        public async Task<IActionResult> GetToDoListItemById([FromRoute] long id)
+        public async Task<IActionResult> GetAllToDoListItemsAsync()
         {
-            ToDoListItem? item = await _itemRepository.GetToDoListItemByIdAsync(id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-            ToDoListItemViewModel mappedResult = _mapper.Map<ToDoListItemViewModel>(item);
+            IEnumerable<ToDoListItem> result = await _itemRepository.GetAllToDoListItemsAsync();
+            List<ToDoListItemViewModel> mappedResult = result.Select(_mapper.Map<ToDoListItemViewModel>).ToList();
             return Ok(mappedResult);
         }
 
@@ -85,6 +69,23 @@ namespace LotusOrganiser_API.Controllers
         {
             ToDoListItem? deletedItem = await _itemRepository.DeleteToDoListItemAsync(id);
             return deletedItem == null ? NotFound() : Ok(deletedItem);
+        }
+
+
+        [HttpGet]
+        [Route("GetToDoListItemById/{id:long}")]
+        [SwaggerOperation(OperationId = nameof(GetToDoListItemById))]
+        [SwaggerResponse(StatusCodes.Status400BadRequest)]
+        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<ToDoListItemViewModel>))]
+        public async Task<IActionResult> GetToDoListItemById([FromRoute] long id)
+        {
+            ToDoListItem? item = await _itemRepository.GetToDoListItemByIdAsync(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            ToDoListItemViewModel mappedResult = _mapper.Map<ToDoListItemViewModel>(item);
+            return Ok(mappedResult);
         }
     }
 

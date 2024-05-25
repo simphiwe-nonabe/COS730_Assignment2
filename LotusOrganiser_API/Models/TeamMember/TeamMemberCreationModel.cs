@@ -7,26 +7,20 @@ namespace LotusOrganiser_API.Models.TeamMember
     {
         private TeamMemberCreationModel()
         {
-            Name = default!;
-            Code = default!;
+            TeamId = default!;
             PersonId = default!;
         }
 
         [JsonConstructor]
-        public TeamMemberCreationModel(string name, string team, long personId)
+        public TeamMemberCreationModel(long teamId, long personId)
         {
-            Name = name;
-            Code = team;
+            TeamId = teamId;
             PersonId = personId;
         }
 
-        [Required]
-        [StringLength(50)]
-        public string Name { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string Code { get; set; }
+        public long TeamId { get; set; }
 
         [Required]
         public long PersonId { get; set; }

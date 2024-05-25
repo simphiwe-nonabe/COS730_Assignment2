@@ -9,20 +9,20 @@ namespace LotusOrganiser_API.Models.TeamMember
         private TeamMemberViewModel()
         {
             TeamMemberId = default!;
-            Team = default!;
-            Person = default!;
+            TeamName = default!;
+            PersonName = default!;
         }
 
         [JsonConstructor]
-        public TeamMemberViewModel(long teamMemberId, string team, string person)
+        public TeamMemberViewModel(long teamMemberId, string teamName, string personName)
         {
             TeamMemberId = teamMemberId;
-            Team = team;
-            Person = person;
+            TeamName = teamName;
+            PersonName = personName;
         }
 
         public long TeamMemberId { get; set; }
-        public string Team { get; set; }
-        public string Person { get; set; }
+        public string TeamName { get; set; }
+        public string PersonName { get; set; }
     }
 }

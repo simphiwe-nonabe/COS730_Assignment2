@@ -33,10 +33,7 @@ namespace LotusOrganiser_Repository.Repositories
 
                 if (person == null)
                 {
-                    //throw new Exception($"TeamMember type with id - {teamMember.PersonId} does not exist.");
-
-                    person = await
-                    _personRepository.AddPersonAsync(teamMember.Person);
+                    throw new Exception($"Person with id - {teamMember.PersonId} does not exist. Please add person first");
                 }
 
                 teamMember.Person = person;
@@ -46,10 +43,7 @@ namespace LotusOrganiser_Repository.Repositories
 
                 if (team == null)
                 {
-                    //throw new Exception($"TeamMember type with id - {teamMember.PersonId} does not exist.");
-
-                    team = await
-                    _teamRepository.CreateTeamAsync(teamMember.Team);
+                    throw new Exception($"Team with id - {teamMember.TeamId} does not exist. Please create team first");
                 }
 
                 teamMember.Team = team;
@@ -60,7 +54,7 @@ namespace LotusOrganiser_Repository.Repositories
             }
             catch (Exception exception)
             {
-                _logger.LogError(exception, "Unable to add TeamMember - {name}", teamMember.Person.Name);
+                _logger.LogError(exception, "Unable to add TeamMember");
                 throw;
             }
         }
@@ -88,39 +82,41 @@ namespace LotusOrganiser_Repository.Repositories
             }
         }
 
-        public async Task<IEnumerable<TeamMember>> FindTeamMembersByNameAsync(string name)
+        public async Task<IEnumerable<TeamMember>> FindTeamsMemberBelongsToByNameAsync(string name)
         {
             return await _context.TeamMembers
                 .Include(person => person.Person)
+                .Include(teamMember => teamMember.Team)
                 .Where(teamMember => teamMember.Person.Name.StartsWith(name)).ToListAsync();
         }
 
         public async Task<IEnumerable<TeamMember>> GetAllTeamMembersAsync()
         {
             return await _context.TeamMembers
-                .Include(person => person.Person)
-                .Include(team => team.Team)
-                .ToListAsync();
-        }
-
-        public async Task<TeamMember?> GetTeamMemberByIdAsync(long id)
-        {
-            return await _context.TeamMembers
                 .Include(teamMember => teamMember.Person)
-                .FirstOrDefaultAsync(teamMember => teamMember.TeamMemberId == id) ?? null;
+                .Include(teamMember => teamMember.Team)
+                .ToListAsync();
         }
 
         public async Task<IEnumerable<TeamMember>> FindTeamMembersByPersonAsync(string name)
         {
             return await _context.TeamMembers
                 .Include(teamMember => teamMember.Person)
+                .Include(teamMember => teamMember.Team)
                 .Where(teamMember => teamMember.Person.Name == name).ToListAsync();
         }
 
-        public async Task<TeamMember?> UpdateTeamMemberAsync(TeamMember updatedTeamMember)
+        public async Task<TeamMember?> UpdateTeamMemberAsync(long id, TeamMember updatedTeamMember)
         {
             try
             {
+                TeamMember? team = await _context.TeamMembers.FindAsync(id);
+
+                if (team == null)
+                {
+                    return null;
+                }
+
                 Person? person = await
                     _personRepository.GetPersonByIdAsync(updatedTeamMember.PersonId);
                 if (person == null)
@@ -149,9 +145,21 @@ namespace LotusOrganiser_Repository.Repositories
             }
         }
 
-        Task<IEnumerable<TeamMember>> ITeamMemberRepository.FindTeamMembersByTeamMemberTypeAsync(string name)
+        public async Task<IEnumerable<TeamMember>> FindTeamMembersByTeamNameAsync(string name)
         {
-            throw new NotImplementedException();
+            return await _context.TeamMembers
+                .Include(teamMember => teamMember.Person)
+                .Include(teamMember => teamMember.Team)
+                .Where(teamMember => teamMember.Team.Name == name).ToListAsync();
         }
+
+        public async Task<IEnumerable<TeamMember>> GetTeamMembersByTeamIdAsync(long id)
+        {
+            return await _context.TeamMembers
+                .Include(teamMember => teamMember.Person)
+                .Include(teamMember => teamMember.Team)
+                .Where(teamMember => teamMember.TeamMemberId == id).ToListAsync();
+        }
+
     }
 }

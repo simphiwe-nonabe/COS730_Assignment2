@@ -45,22 +45,6 @@ namespace LotusOrganiser_API.Controllers
             return Ok(mappedResult);
         }
 
-        [HttpGet]
-        [Route("GetPersonById/{id:long}")]
-        [SwaggerOperation(OperationId = nameof(GetPersonById))]
-        [SwaggerResponse(StatusCodes.Status400BadRequest)]
-        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<PersonViewModel>))]
-        public async Task<IActionResult> GetPersonById([FromRoute] long id)
-        {
-            Person? person = await _personRepository.GetPersonByIdAsync(id);
-            if (person == null)
-            {
-                return NotFound();
-            }
-            PersonViewModel mappedResult = _mapper.Map<PersonViewModel>(person);
-            return Ok(mappedResult);
-        }
-
         [HttpPut]
         [Route("UpdatePerson/{id:long}")]
         [SwaggerOperation(OperationId = nameof(UpdatePerson))]
@@ -83,6 +67,22 @@ namespace LotusOrganiser_API.Controllers
         {
             Person? deletedPerson = await _personRepository.DeletePersonAsync(id);
             return deletedPerson == null ? NotFound() : Ok(deletedPerson);
+        }
+
+        [HttpGet]
+        [Route("GetPersonById/{id:long}")]
+        [SwaggerOperation(OperationId = nameof(GetPersonById))]
+        [SwaggerResponse(StatusCodes.Status400BadRequest)]
+        [SwaggerResponse(StatusCodes.Status200OK, Type = typeof(IEnumerable<PersonViewModel>))]
+        public async Task<IActionResult> GetPersonById([FromRoute] long id)
+        {
+            Person? person = await _personRepository.GetPersonByIdAsync(id);
+            if (person == null)
+            {
+                return NotFound();
+            }
+            PersonViewModel mappedResult = _mapper.Map<PersonViewModel>(person);
+            return Ok(mappedResult);
         }
 
         [HttpGet]

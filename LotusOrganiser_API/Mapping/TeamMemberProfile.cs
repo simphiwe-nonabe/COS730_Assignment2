@@ -8,9 +8,11 @@ namespace LotusOrganiser_API.Mapping
     {
         public TeamMemberProfile()
         {
-            CreateMap<TeamMember, TeamMemberViewModel>();
+            CreateMap<TeamMember, TeamMemberViewModel>()
+                .ForMember(m => m.TeamName, opt => opt.MapFrom(e => e.Team.Name));
 
-            CreateMap<TeamMemberCreationModel, TeamMember>();
+            CreateMap<TeamMemberCreationModel, TeamMember>()
+                .ForMember(m => m.TeamId, opt => opt.MapFrom(e => e.TeamId));
 
             CreateMap<TeamMemberUpdateModel, TeamMember>();
         }
